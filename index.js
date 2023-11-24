@@ -3,11 +3,11 @@ class hero {
         this.name = nome
         this.age = idade
         this.type = tipo
-        this.atack = ataque
+        this.attack = ataque
     }
     
     atacar(){
-    	console.log(`O ${this.type} ${this.name} atacou usando ${this.atack}`);
+    	console.log(`O ${this.type} ${this.name} atacou usando ${this.attack}`);
     }
 }
 
